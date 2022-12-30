@@ -1,0 +1,347 @@
+* {
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+.menu {
+    width: 100%;
+    height: 60px;
+    background-color: #5631c7;
+    position: absolute;
+
+}
+
+.menu li {
+    list-style: none;
+    width: 160px;
+    height: 60px;
+    margin-left: 40px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    line-height: 60px;
+    padding-top: 5px;
+}
+
+.menu li:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.menu li a:hover {
+    color: aqua;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.logo_li {
+
+
+    width: 160px;
+    height: 60px;
+    background-color: crimson;
+
+
+}
+
+
+
+.logo_li:hover {
+    background-color: #2196f3 !important;
+
+}
+
+
+.logo_li a {
+    font-size: 15px;
+
+}
+
+.logo_li a :hover {
+    background-color: orangered !important;
+}
+
+.menu ul li {
+    margin: 0px;
+    margin: 0px;
+
+}
+
+.menu ul {
+    display: none;
+}
+
+.menu ul a {
+    background-color: #5631c7;
+
+
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+/*banner*/
+#banner img {
+    padding-top: 5%;
+    width: 100%;
+}
+
+/*why choose us*/
+
+#choose {
+    width: 100%;
+    text-align: center;
+}
+
+#choose h1 {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px solid red;
+    padding-top: 40px;
+
+}
+
+.div_section1 {
+    width: 20%;
+    height: 350px;
+    margin: 30px;
+
+    float: left;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 80px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+
+    transition-duration: 0.3s;
+
+}
+
+.icon:hover {
+    font-size: 40px;
+}
+
+
+.div_section2 {
+    width: 20%;
+    height: 350px;
+    margin: 30px;
+
+    float: left;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+
+    transition-duration: 0.3s;
+
+}
+
+.icon:hover {
+    font-size: 40px;
+}
+
+.div_section3 {
+    width: 20%;
+    height: 350px;
+    margin: 30px;
+
+    float: left;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 80px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+
+    transition-duration: 0.3s;
+
+}
+
+.icon:hover {
+    font-size: 40px;
+}
+
+.div_section4 {
+    width: 20%;
+    height: 350px;
+    margin: 30px;
+
+    float: left;
+}
+
+.icon {
+
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color: darkred;
+    color: white;
+    border-radius: 100px;
+
+    transition-duration: 0.3s;
+
+}
+
+.icon:hover {
+    font-size: 40px;
+}
+
+/*school details*/
+
+.school {
+    width: 100%;
+    text-align: center;
+}
+
+.schoold h1 {
+    margin: 0 auto;
+    width: 350px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+    padding-top: 50px;
+}
+
+.school1 {
+    width: 25%;
+    height: 450px;
+    margin: 50px;
+
+    padding-top: 20px;
+    float: left;
+}
+
+.school1 img {
+    width: 100%;
+
+}
+
+/*teacher list*/
+
+.school h1 {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 40px;
+    color: red;
+    border-bottom: 2px solid red;
+    padding-top: 40px;
+
+}
+
+.teacher1 {
+    width: 18%;
+    height: 300px;
+    margin: 5px;
+    padding: 35px;
+    float: left;
+}
+
+.teacher img {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 20px;
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 100px;
+    padding-top: 20px;
+    transition-duration: 0.3s;
+
+}
+
+
+
+.teacher img:hover {
+    font-size: 10px;
+}
+
+.teacher1 h2 {
+    width: 190px;
+
+}
+
+.teacher1 button {
+    width: 120px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding-top: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    display: grid;
+
+
+}
+
+
+
+/*footer*/
+.footer {
+    width: 100%;
+    background-color: black;
+    float: left;
+
+}
+
+.footer_div {
+    width: 100%;
+    height: auto;
+    margin: 30px;
+    float: left;
+}
+
+.footer_div h1 {
+    text-align: center;
+    color: white;
+}
